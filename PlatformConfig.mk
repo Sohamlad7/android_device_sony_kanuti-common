@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Platform path
-PLATFORM_COMMON_PATH := device/sony/kanuti
+PLATFORM_COMMON_PATH := device/sony/kanuti-common
 
 TARGET_BOARD_PLATFORM := msm8916
 
@@ -89,4 +89,4 @@ TARGET_SYSTEM_PROP += $(PLATFORM_COMMON_PATH)/system.prop
 # SELinux
 BOARD_SEPOLICY_DIRS += $(PLATFORM_COMMON_PATH)/sepolicy
 
-include device/sony/common/CommonConfig.mk
+include device/sony/common-aosp/CommonConfig.mk

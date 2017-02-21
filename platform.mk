@@ -13,9 +13,9 @@
 # limitations under the License.
 
 # Platform path
-PLATFORM_COMMON_PATH := device/sony/kanuti
+PLATFORM_COMMON_PATH := device/sony/kanuti-common
 
-$(call inherit-product, device/sony/common/common.mk)
+$(call inherit-product, device/sony/common-aosp/common.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
 SOMC_PLATFORM := kanuti
